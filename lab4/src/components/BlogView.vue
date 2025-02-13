@@ -20,10 +20,7 @@ const toggleEditor = () => {
   showEditor.value = !showEditor.value;
 };
 
-// const handleAddItem = (newBlog) => {
-//   addItem(newBlog);
-//   showEditor.value = false;
-// };
+
 </script>
 
 <style scoped>
