@@ -13,7 +13,7 @@ import Blogs from './Blogs.vue';
 import { useBlogs } from '../composable/useBlog';
 import { ref } from 'vue';
 
-const { blogs, isLoading, error, addItem, deleteItem } = useBlogs();
+const { blogs, isLoading, error, handleAddItem, deleteItem } = useBlogs();
 const showEditor = ref(false);
 
 const toggleEditor = () => {
