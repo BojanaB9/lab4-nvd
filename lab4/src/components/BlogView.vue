@@ -25,13 +25,13 @@ const toggleEditor = () => {
 
 <style scoped>
 button {
-  background-color: #42b983;
-  color: white;
+  background-color: mediumpurple;
+  color: black;
   padding: 10px;
   border: none;
   cursor: pointer;
 }
 button:hover {
-  background-color: #369f75;
+  background-color: lightskyblue;
 }
 </style>
