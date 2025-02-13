@@ -21,7 +21,7 @@ export const useBlogs = () => {
                 order: "-fields.publishDate",
             });
 
-            console.log("API Response:", response); // Debugging line
+            console.log("API Response:", response);
 
             blogs.value = response.items.map((item) => ({
                 title: item.fields.title,
