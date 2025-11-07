@@ -2,7 +2,6 @@ import pygame
 import sys
 
 pygame.init()
-pygame.mixer.init()
 
 WIDTH, HEIGHT = 600, 650
 GRID_SIZE = 5
